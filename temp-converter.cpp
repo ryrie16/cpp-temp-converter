@@ -20,19 +20,19 @@ void convertFahrenheitToCelsius(){
 }
 
 int main() {
-    std::cout << "Enter c if you want to convert from Fahrenheit to Celsius";
-    std::cout << "Enter f if you want to convert from Celsius to Fahrenheit";
+    std::cout << "Enter c if you want to convert from Fahrenheit to Celsius\n";
+    std::cout << "Enter f if you want to convert from Celsius to Fahrenheit\n";
     char fc;
     std::cin >> fc;
 
-    if fc == 'c'(
+    if (fc == 'c') {
         convertFahrenheitToCelsius();
-    );  
-    else if fc == 'f'(
+    }  
+    else if (fc == 'f') {
         convertCelsiusToFahrenheit();
-    );
-    else (
-        std::cout << "Incorrect input. Please try again later";
-    );
+    }
+    else {
+        std::cout << "Incorrect input. Please try again later\n";
+    }
     return 0;
 }
