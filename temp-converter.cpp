@@ -20,5 +20,19 @@ void convertFahrenheitToCelsius(){
 }
 
 int main() {
+    std::cout << "Enter c if you want to convert from Fahrenheit to Celsius";
+    std::cout << "Enter f if you want to convert from Celsius to Fahrenheit";
+    char fc;
+    std::cin >> fc;
+
+    if fc == 'c'(
+        convertFahrenheitToCelsius();
+    );  
+    else if fc == 'f'(
+        convertCelsiusToFahrenheit();
+    );
+    else (
+        std::cout << "Incorrect input. Please try again later";
+    );
     return 0;
 }
